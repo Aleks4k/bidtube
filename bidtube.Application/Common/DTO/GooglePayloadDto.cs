@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace bidtube.Application.Common.DTO
+{
+    public class GooglePayloadDto
+    {
+        public string Email { get; set; } = string.Empty;
+    }
+}
